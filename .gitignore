@@ -1,0 +1,26 @@
+__pycache__
+*.egg-info
+.DS_Store
+.claude/
+
+# Legacy build artifacts / experiment outputs
+output
+experiment-results/
+processed_dataset/
+**/scbench/
+dataset/ruler/
+eval/ruler/
+
+# Downloaded data (fetched by data-prep scripts)
+PaulGrahamEssays.json
+hotpotqa.json
+squad.json
+
+# Removed baseline modules — anyone re-cloning them locally shouldn't leak
+pipeline/kivi/quant/build/*
+kivi_gemv.cpython*
+pipeline/adamas/
+
+# Coredumps
+core
+core.*

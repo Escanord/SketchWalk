@@ -1,0 +1,17 @@
+{
+    "pipeline_params": {
+        "method": "sketchwalk",
+        "model_name": "meta-llama/Llama-3.1-8B-Instruct",
+        "sparsity_mode": "both",
+        "n_new_tokens": 1024,
+        "max_model_len": 128000,
+        "truncation_mode": "middle",
+        "random_walk_hadamard_dim": 128,
+        "random_walk_kblocks_frac": 0.125,
+        "random_walk_window": 0.05,
+        "random_walk_block_size": 64,
+        "random_walk_degree": 3,
+        "random_walk_query_window": 32,
+        "random_walk_sink": 0.025
+    }
+}
